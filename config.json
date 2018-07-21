@@ -1,0 +1,27 @@
+{
+    "trade": false,
+    "targets": ["EUR", "USD", "USDT", "BTC"],
+    "exchanges": [
+        {
+            "name": "bitstamp",
+            "keys": {
+                "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXX",
+                "secret": "XXXXXXXXXXXXXXXXXXXXXXXX",
+                "uid": 12345
+            }
+        },{
+            "name": "kraken",
+            "keys": {
+                "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXX",
+                "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
+            }
+        },{
+            "name": "bitfinex",
+            "targets": ["USD", "USDT", "BTC"],
+            "keys": {
+                "apiKey": "XXXXXXXXXXXXXXXXXXXXXXXX",
+                "secret": "XXXXXXXXXXXXXXXXXXXXXXXX"
+            }
+        }
+    ]
+}
